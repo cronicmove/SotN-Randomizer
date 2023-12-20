@@ -1,0 +1,3581 @@
+{
+  "metadata": {
+    "id": "aperture",
+    "name": "Aperture",
+    "description": "Opens several shortcuts and all teleporters but hides the end of the game behind a Portal Spell",
+    "author": "eldri7ch, Mottzilla, Wecoc",
+    "weight": -900
+  },
+
+  "itemLocations": [{
+    "comment": "Place Library Card instead of Cat-eye Circl. in the Catacombs for folks who become trapped",
+    "zone": "CAT",
+    "item": "Cat-eye circl.",
+    "replacement": "Library card"
+  }],
+
+  "lockLocation": [{
+    "location": "Merman Statue",
+    "comment": "No Requirements",
+    "locks": [
+    ]
+  }, {
+    "location": "Form of Mist",
+    "comment": "No Requirements",
+    "locks": [
+    ]
+  }, {
+    "location": "Leap Stone",
+    "comment": "No Requirements",
+    "locks": [
+    ]
+  }, {
+    "location": "Demon Card",
+    "comment": "No Requirements",
+    "locks": [
+    ]
+  }, {
+    "location": "Soul of Bat",
+    "comment": "Requires Mist + at least Leap Stone",
+    "locks": [
+      "Form of Mist + Leap Stone",
+      "Form of Mist + Gravity Boots",
+      "Form of Mist + Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Fire of Bat",
+    "comment": "Requires flight + a transformation",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone + Form of Mist",
+      "Gravity Boots + Leap Stone + Soul of Wolf",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Echo of Bat",
+    "comment": "Requires flight + a transformation",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone + Form of Mist",
+      "Gravity Boots + Leap Stone + Soul of Wolf",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Force of Echo",
+    "comment": "Second Castle, Requires Holy Symbol + Soul of Wolf",
+    "locks": [
+      "Holy glasses + Soul of Bat + Holy Symbol + Soul of Wolf",
+      "Holy glasses + Gravity Boots + Leap Stone + Holy Symbol + Soul of Wolf",
+      "Holy glasses + Form of Mist + Power of Mist + Holy Symbol + Soul of Wolf"
+    ]
+  }, {
+    "location": "Power of Wolf",
+    "comment": "Requires flight",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Skill of Wolf",
+    "comment": "Requires at least Gravity Boots + Jewel of Open",
+    "locks": [
+      "Gravity Boots + Jewel of Open",
+      "Soul of Bat + Jewel of Open",
+      "Form of Mist + Power of Mist + Jewel of Open"
+    ]
+  }, {
+    "location": "Power of Mist",
+    "comment": "Requires flight",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Gas Cloud",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Gravity Boots",
+    "comment": "Requires flight + Jewel of Open",
+    "locks": [
+      "Soul of Bat + Jewel of Open",
+      "Gravity Boots + Leap Stone + Jewel of Open",
+      "Form of Mist + Power of Mist + Jewel of Open"
+    ]
+  }, {
+    "location": "Holy Symbol",
+    "comment": "Requires Merman Statue + Jewel of Open or at least Leap Stone",
+    "locks": [
+      "Jewel of Open + Merman Statue",
+      "Leap Stone + Merman Statue",
+      "Gravity Boots + Merman Statue",
+      "Soul of Bat + Merman Statue",
+      "Form of Mist + Power of Mist + Merman Statue"
+    ]
+  }, {
+    "location": "Bat Card",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Gravity Boots",
+      "Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Ghost Card",
+    "comment": "Requires flight",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Faerie Card",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Gravity Boots",
+      "Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Sword Card",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Gravity Boots",
+      "Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Heart of Vlad",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Tooth of Vlad",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Rib of Vlad",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone + Form of Mist",
+      "Holy glasses + Gravity Boots + Leap Stone + Soul of Wolf",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Ring of Vlad",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Eye of Vlad",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Spike Breaker",
+    "locks": [
+      "Soul of Bat + Echo of Bat"
+    ]
+  }, {
+    "location": "Gold ring",
+    "comment": "Requires flight",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Silver ring",
+    "locks": [
+      "Jewel of Open + Spike Breaker + Form of Mist"
+    ]
+  }, {
+    "location": "Holy glasses",
+    "locks": [
+      "Silver ring + Gold ring"
+    ],
+    "comment": "Access must also give flight",
+    "escapeRequires": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Crystal cloak",
+    "comment": "Requires Jewel of Open or at least Leap Stone",
+    "locks": [
+      "Jewel of Open",
+      "Leap Stone",
+      "Gravity Boots",
+      "Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Mormegil",
+    "comment": "Require's at least Leap Stone",
+    "locks": [
+      "Leap Stone",
+      "Gravity Boots",
+      "Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ],
+    "escapeRequires": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Dark Blade",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Ring of Arcana",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Trio",
+    "comment": "In second castle",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Holy mail",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Gravity Boots",
+      "Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Jewel sword",
+    "comment": "Requires Wolf + Bat",
+    "locks": [
+      "Soul of Wolf + Soul of Bat"
+    ]
+  }, {
+    "location": "Mystic pendant",
+    "comment": "Requires at least Leap Stone",
+    "locks": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Ankh of Life",
+    "comment": "Requires at least Leap Stone",
+    "locks": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Morningstar",
+    "comment": "Requires at least Leap Stone",
+    "locks": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Platinum mail",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Falchion",
+    "comment": "Requires at least Leap Stone",
+    "locks": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Gold plate",
+    "comment": "Requires at least Leap Stone",
+    "locks": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Bekatowa",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Holy rod",
+    "comment": "Requires at least Leap Stone",
+    "locks": [
+      "Leap Stone",
+      "Soul of Bat",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Library Onyx",
+    "comment": "Requires at least Leap Stone",
+    "locks": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Alucart sword",
+    "comment": "Requires at least Cube of Zoe + at least Leap Stone",
+    "locks": [
+      "Cube of Zoe + Soul of Bat",
+      "Cube of Zoe + Leap Stone",
+      "Cube of Zoe + Gravity Boots",
+      "Cube of Zoe + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Estoc",
+    "comment": "Requires flight",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Olrox Garnet",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Holy sword",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Bandanna",
+    "comment": "Requires Jewel of Open or at least Leap Stone",
+    "locks": [
+      "Jewel of Open",
+      "Leap Stone",
+      "Gravity Boots",
+      "Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Secret boots",
+    "comment": "Requires flight",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots + Leap Stone",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Nunchaku",
+    "comment": "Requires Jewel of Open or at least Leap Stone + Holy Symbol",
+    "locks": [
+      "Jewel of Open + Holy Symbol",
+      "Leap Stone + Holy Symbol",
+      "Gravity Boots + Holy Symbol",
+      "Soul of Bat + Holy Symbol",
+      "Form of Mist + Power of Mist + Holy Symbol"
+    ]
+  }, {
+    "location": "Knuckle duster",
+    "comment": "Requires Jewel of Open or at least Leap Stone",
+    "locks": [
+      "Jewel of Open",
+      "Leap Stone",
+      "Gravity Boots",
+      "Soul of Bat",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Caverns Onyx",
+    "comment": "Requires Jewel of Open + at least Leap Stone",
+    "locks": [
+      "Jewel of Open + Merman Statue",
+      "Leap Stone + Merman Statue",
+      "Jewel of Open + Soul of Bat",
+      "Jewel of Open + Holy Symbol + Leap Stone",
+      "Jewel of Open + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Combat knife",
+    "comments": "Access must also give at least Leap Stone",
+    "locks": [
+      "Spirit Orb"
+    ],
+    "escapeRequires": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Ring of Ares",
+    "comment": "Requires Demon Card + at least Gravity Boots",
+    "locks": [
+      "Demon Card + Soul of Bat",
+      "Demon Card + Gravity Boots",
+      "Demon Card + Form of Mist + Power of Mist",
+      "Nosedevil Card + Soul of Bat",
+      "Nosedevil Card + Gravity Boots",
+      "Nosedevil Card + Form of Mist + Power of Mist"
+    ],
+    "comment": "Access must also give at least Leap Stone",
+    "escapeRequires": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Bloodstone",
+    "comment": "Access must also give at least Leap Stone",
+    "locks": [
+      "Spirit Orb"
+    ],
+    "escapeRequires": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Icebrand",
+    "comment": "Requires at least Gravity Boots",
+    "locks": [
+      "Soul of Bat",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ],
+    "comment": "Access must also give at least Leap Stone",
+    "escapeRequires": [
+      "Soul of Bat",
+      "Leap Stone",
+      "Gravity Boots",
+      "Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Beryl circlet",
+    "comment": "Requires Holy glasses + Bat + Wolf",
+    "locks": [
+      "Holy glasses + Soul of Bat + Soul of Wolf"
+    ]
+  }, {
+    "location": "Talisman",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Katana",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Goddess shield",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Twilight cloak",
+    "comment": "Requires Holy glasses + Mist + flight",
+    "locks": [
+      "Holy glasses + Form of Mist + Soul of Bat",
+      "Holy glasses + Form of Mist + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Talwar",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Sword of Dawn",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Bastard sword",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Royal cloak",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Lightning mail",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Moon rod",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Sunstone",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Luminus",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Dragon helm",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Shotel",
+    "comment": "Requires Holy glasses + Mist + flight",
+    "locks": [
+      "Holy glasses + Form of Mist + Soul of Bat",
+      "Holy glasses + Form of Mist + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Staurolite",
+    "comment": "Requires Holy glasses + Mist + flight",
+    "locks": [
+      "Holy glasses + Form of Mist + Soul of Bat",
+      "Holy glasses + Form of Mist + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Badelaire",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Forbidden Library Opal",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Reverse Caverns Diamond",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Reverse Caverns Opal",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Reverse Caverns Garnet",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Osafune katana",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Alucard shield",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Alucard sword",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Necklace of J",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Floating Catacombs Diamond",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Sword of Hador",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Alucard mail",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Gram",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }, {
+    "location": "Fury plate",
+    "comment": "Requires Holy glasses + flight",
+    "locks": [
+      "Holy glasses + Soul of Bat",
+      "Holy glasses + Gravity Boots + Leap Stone",
+      "Holy glasses + Form of Mist + Power of Mist"
+    ]
+  }],
+
+  "writes": [{
+    "comment": "Jump to injected code",
+    "address": "0x000fa97c",
+    "type": "word",
+    "value": "0x0c04db00"
+  }, {
+    "address": "0x00158c98",
+    "type": "word",
+    "value": "0x34020003",
+    "comment": "ori v0, 0x0003"
+  }, {
+    "comment": "Write to 8003 RAM addresses,",
+    "type": "word",
+    "value": "0x3c038004",
+    "comment": "lui v1, 0x8004"
+  }, {
+    "comment": "Open Entrance to Catacombs",
+    "type": "word",
+    "value": "0xa062BEB3",
+    "comment": "sb v0, 0xBEB3 (v1)"
+  }, {
+    "type": "word",
+    "value": "0x34020001",
+    "comment": "ori v0, 0x0001"
+  }, {
+    "comment": "Open Shortcut: Caverns - Entrance",
+    "type": "word",
+    "value": "0xa062BE1C",
+    "comment": "sb v0, 0xBE1C (v1)"
+  }, {
+    "comment": "Open Shortcut: Marble Gallery - Entrance",
+    "type": "word",
+    "value": "0xa062BE1D",
+    "comment": "sb v0, 0xBE1D (v1)"
+  }, {
+    "comment": "Open Shortcut: Teleporter - Entrance",
+    "type": "word",
+    "value": "0xa062BE1E",
+    "comment": "sb v0, 0xBE1E (v1)"
+  }, {
+    "comment": "Open Shortcut: Alchemy Lab Cannon",
+    "type": "word",
+    "value": "0xa062BE6F",
+    "comment": "sb v0, 0xBE6F (v1)"
+  }, {
+    "comment": "Open Shortcut: Olrox's Quarters - Royal Chapel",
+    "type": "word",
+    "value": "0xa062BE4C",
+    "comment": "sb v0, 0xBE4C (v1)"
+  }, {
+    "comment": "Open Shortcut: Colosseum - Royal Chapel",
+    "type": "word",
+    "value": "0xa062BE9D",
+    "comment": "sb v0, 0xBE9D (v1)"
+  }, {
+    "comment": "Open Keep Attic Stairs",
+    "type": "word",
+    "value": "0xa062BE80",
+    "comment": "sb v0, 0xBE80 (v1)"
+  }, {
+    "comment": "Turn on Outer Wall Elevator",
+    "type": "word",
+    "value": "0xa062BDFC",
+    "comment": "sb v0, 0xBDFC (v1)"
+  }, {
+    "comment": "Mines Ledge Has Fallen",
+    "type": "word",
+    "value": "0xa062BE3E",
+    "comment": "sb v0, 0xBE3E (v1)"
+  }, {
+    "type": "word",
+    "value": "0x3402001F",
+    "comment": "ori v0, 0x001F"
+  }, {
+    "comment": "Unlock Normal Teleport Rooms",
+    "type": "word",
+    "value": "0xa062BEBC",
+    "comment": "sb v0, 0xBEBC (v1)"
+  }, {
+    "comment": "Unlock Reverse Teleport Rooms",
+    "type": "word",
+    "value": "0xa062BEBD",
+    "comment": "sb v0, 0xBEBD (v1)"
+  }, {
+    "comment": "Save Return Address for rA (Map Code)",
+    "type": "word",
+    "value": "0x37F70000"
+  }, {
+    "comment": "Call Map Acquisition Function (Map Code)",
+    "type": "word",
+    "value": "0x0C03C8A2"
+  }, {
+    "type": "word",
+    "value": "0x34040000",
+    "comment": "Arg0 w/ 0"
+  }, {
+    "comment": "Recall Return Address for rA (Map Code)",
+    "type": "word",
+    "value": "0x36FF0000"
+  }, {
+    "type": "word",
+    "value": "0x00000000",
+    "comment": "nop"
+  }, {
+    "comment": "Return from injected code",
+    "type": "word",
+    "value": "0x0803924f",
+    "comment": "j 0x800e493c"
+  }, {
+    "type": "word",
+    "value": "0x00000000",
+    "comment": "nop"
+  }, {
+    "comment": "Death goes home.",
+    "address": "0x4BAEA08",
+    "type": "word",
+    "value": "0x18000006"
+  }, {
+    "type": "word",
+    "address": "0x158C30",
+    "value": "0x3C028004",
+    "comment": "RLBC"
+  }, {
+    "type": "word",
+    "value": "0x9045925D"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x38A500FF"
+  }, {
+    "type": "word",
+    "value": "0x30A50040"
+  }, {
+    "type": "word",
+    "value": "0x10A00008"
+  }, {
+    "type": "word",
+    "value": "0x3C028007"
+  }, {
+    "type": "word",
+    "value": "0x9042BBFB"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x10400004"
+  }, {
+    "type": "word",
+    "value": "0x34180022"
+  }, {
+    "type": "word",
+    "value": "0x341988BE"
+  }, {
+    "type": "word",
+    "value": "0x18000003"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34180002"
+  }, {
+    "type": "word",
+    "value": "0x34197C0E"
+  }, {
+    "type": "word",
+    "value": "0x3C02800F"
+  }, {
+    "type": "word",
+    "value": "0xA0581724"
+  }, {
+    "type": "word",
+    "value": "0x3B180020"
+  }, {
+    "type": "word",
+    "value": "0xA05832A4"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x3C02800A"
+  }, {
+    "type": "word",
+    "value": "0xA4593C98"
+  }, {
+    "type": "word",
+    "value": "0x34040000"
+  }, {
+    "type": "word",
+    "value": "0x0804390B"
+  }, {
+    "type": "word",
+    "value": "0x00000000",
+    "comment": "Block A End"
+  }, {
+    "type": "word",
+    "address": "0x12B534",
+    "value": "0x0C04DAE6",
+    "comment": "Reverse Library Card"
+  }, {
+    "comment": "Portal Spell",
+    "address": "0xF56A8",
+    "type": "word",
+    "value": "0x74726F50"
+  }, {
+    "type": "word",
+    "value": "0x53206C61"
+  }, {
+    "type": "word",
+    "value": "0x6C6C6570"
+  }, {
+    "type": "char",
+    "value": "0x00"
+  }, {
+    "comment": "Grav Boots Door",
+    "address": "0x48FC9A8",
+    "type": "word",
+    "value": "0x007003F4"
+  }, {
+    "type": "word",
+    "value": "0x00910051"
+  }, {
+    "type": "short",
+    "value": "0x0000"
+  }, {
+    "comment": "Grav Boots Blocks 1",
+    "address": "0x492C970",
+    "type": "short",
+    "value": "0x042C"
+  }, {
+    "type": "short",
+    "value": "0x042C"
+  }, {
+    "type": "short",
+    "value": "0x042C"
+  }, {
+    "comment": "Grav Boots Blocks 2",
+    "address": "0x492CA10",
+    "type": "short",
+    "value": "0x042C"
+  }, {
+    "type": "short",
+    "value": "0x042C"
+  }, {
+    "type": "short",
+    "value": "0x042C"
+  }, {
+    "comment": "Grav Boots Door GFX",
+    "address": "0x48FC8AE",
+    "type": "char",
+    "value": "0x09"
+  }, {
+    "comment": "Skill of Wolf Door",
+    "address": "0x54B404C",
+    "type": "word",
+    "value": "0x006101D0"
+  }, {
+    "type": "word",
+    "value": "0x0108004A"
+  }, {
+    "type": "short",
+    "value": "0x0000"
+  }, {
+    "comment": "Skill of Wolf Door GFX",
+    "address": "0x54B38B2",
+    "type": "char",
+    "value": "0x03"
+  }, {
+    "comment": "Skill of Wolf Hide Ugly Vats",
+    "address": "0x54B4027",
+    "type": "char",
+    "value": "0x01"
+  }, {
+    "address": "0x54B4031",
+    "type": "char",
+    "value": "0x01"
+  }, {
+    "address": "0x54B403B",
+    "type": "char",
+    "value": "0x01"
+  }, {
+    "address": "0x54B4045",
+    "type": "char",
+    "value": "0x01"
+  }, {
+    "comment": "Pillar in Clock Tower",
+    "address": "0x5590D62",
+    "type": "word",
+    "value": "0x015D015C"
+  }, {
+    "address": "0x5590E22",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5590EE2",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5590FA2",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5591062",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5591122",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x55911E2",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x55912A2",
+    "type": "word",
+    "value": "0x015D015C"
+  }, {
+    "address": "0x5591362",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5591552",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5591612",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x55916D2",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5591792",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5591852",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5591912",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x55919D2",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5591A92",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5591B52",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5591C12",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5591CD2",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5591EC2",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5591F82",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5592042",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5592102",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x55921C2",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5592282",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5592342",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5592402",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x55924C2",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5592582",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5592772",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5592832",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x55928F2",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x55929B2",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5592A72",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5592B32",
+    "type": "word",
+    "value": "0x01750174"
+  }, {
+    "address": "0x5592BF2",
+    "type": "word",
+    "value": "0x01750176"
+  }, {
+    "address": "0x5592CB2",
+    "type": "word",
+    "value": "0x01750174",
+    "comment": "End Pillar in Clock Tower"
+  }, {
+    "comment": "Increased Complexity on Fire of Bat 1",
+    "address": "0x5590586",
+    "type": "word",
+    "value": "0x000C000B"
+  }, {
+    "type": "word",
+    "value": "0x000C000C"
+  }, {
+    "type": "short",
+    "value": "0x000C"
+  }, {
+    "comment": "Increased Complexity on Fire of Bat 2",
+    "address": "0x55907C0",
+    "type": "word",
+    "value": "0x000C000B"
+  }, {
+    "type": "word",
+    "value": "0x000C000C"
+  }, {
+    "type": "word",
+    "value": "0x000C000C"
+  }, {
+    "type": "word",
+    "value": "0x000C000C"
+  }, {
+    "comment": "Increased Complexity on Fire of Bat 3",
+    "address": "0x5594EF0",
+    "type": "word",
+    "value": "0x000A000C"
+  }, {
+    "type": "short",
+    "value": "0x0157"
+  }, {
+    "comment": "Increased Complexity on Fire of Bat 4",
+    "address": "0x5594E90",
+    "type": "word",
+    "value": "0x000C000C"
+  }, {
+    "type": "word",
+    "value": "0x000A000C"
+  }, {
+    "comment":"Sect Loading",
+    "type": "word",
+    "address":"0xFE824",
+    "value": "0x27BDFFE0"
+  }, {
+    "type": "word",
+    "value": "0x3C020022"
+  }, {
+    "type": "word",
+    "value": "0x34422905"
+  }, {
+    "type": "word",
+    "value": "0x34040002"
+  }, {
+    "type": "word",
+    "value": "0x27A50010"
+  }, {
+    "type": "word",
+    "value": "0x34060000"
+  }, {
+    "type": "word",
+    "value": "0xAFBF0018"
+  }, {
+    "type": "word",
+    "value": "0x0C006578"
+  }, {
+    "type": "word",
+    "value": "0xAFA20010"
+  }, {
+    "type": "word",
+    "value": "0x34040004"
+  }, {
+    "type": "word",
+    "value": "0x3C058000"
+  }, {
+    "type": "word",
+    "value": "0x34A5C000"
+  }, {
+    "type": "word",
+    "value": "0x3C018001"
+  }, {
+    "type": "word",
+    "value": "0x3421C080"
+  }, {
+    "type": "word",
+    "value": "0x0020F809"
+  }, {
+    "type": "word",
+    "value": "0x34060080"
+  }, {
+    "type": "word",
+    "value": "0x34040000"
+  }, {
+    "type": "word",
+    "value": "0x3C018001"
+  }, {
+    "type": "word",
+    "value": "0x3421C188"
+  }, {
+    "type": "word",
+    "value": "0x0020F809"
+  }, {
+    "type": "word",
+    "value": "0x34050000"
+  }, {
+    "type": "word",
+    "value": "0x34020000"
+  }, {
+    "type": "word",
+    "value": "0x8FBF0018"
+  }, {
+    "type": "word",
+    "value": "0x27BD0020"
+  }, {
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "SLHK",
+    "type": "word",
+    "address": "0xFA244",
+    "value": "0x0C03A07F"
+  }, {
+    "comment": "Start Portal",
+    "type": "word",
+    "address": "0x370F5A8",
+    "value": "0x08003006"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00000028"
+  }, {
+    "type": "word",
+    "value": "0x01000080"
+  }, {
+    "type": "word",
+    "value": "0x00009658"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x27BDFFE0"
+  }, {
+    "type": "word",
+    "value": "0xAFBF0018"
+  }, {
+    "type": "word",
+    "value": "0x3C048009"
+  }, {
+    "type": "word",
+    "value": "0x34847973"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x90850000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x10A0001D"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xA0800000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x3C048009"
+  }, {
+    "type": "word",
+    "value": "0x3484797D"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x90850000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x10A00014"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x90850001"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x10A00010"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x90850002"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x10A0000C"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x90850003"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x10A00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x90850004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x10A00004"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34040000"
+  }, {
+    "type": "word",
+    "value": "0x0C003031"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x8FBF0018"
+  }, {
+    "type": "word",
+    "value": "0x27BD0020"
+  }, {
+    "type": "word",
+    "value": "0x3C028004"
+  }, {
+    "type": "word",
+    "value": "0x8C42C9A0"
+  }, {
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x00047900"
+  }, {
+    "type": "word",
+    "value": "0x3C0E8000"
+  }, {
+    "type": "word",
+    "value": "0x35CEC008"
+  }, {
+    "type": "word",
+    "value": "0x3C08800F"
+  }, {
+    "type": "word",
+    "value": "0x35081724"
+  }, {
+    "type": "word",
+    "value": "0x01CF7021"
+  }, {
+    "type": "word",
+    "value": "0x3C09800A"
+  }, {
+    "type": "word",
+    "value": "0x35293C98"
+  }, {
+    "type": "word",
+    "value": "0x3C0A800A"
+  }, {
+    "type": "word",
+    "value": "0x354A25E2"
+  }, {
+    "type": "word",
+    "value": "0x3C0B800A"
+  }, {
+    "type": "word",
+    "value": "0x356B25E4"
+  }, {
+    "type": "word",
+    "value": "0x3C0C800A"
+  }, {
+    "type": "word",
+    "value": "0x358C25E6"
+  }, {
+    "type": "word",
+    "value": "0x3C0D8009"
+  }, {
+    "type": "word",
+    "value": "0x35AD7C98"
+  }, {
+    "type": "word",
+    "value": "0x95C40000"
+  }, {
+    "type": "word",
+    "value": "0x95C50002"
+  }, {
+    "type": "word",
+    "value": "0x95C60004"
+  }, {
+    "type": "word",
+    "value": "0x95C70006"
+  }, {
+    "type": "word",
+    "value": "0x8DC30008"
+  }, {
+    "type": "word",
+    "value": "0xA5040000"
+  }, {
+    "type": "word",
+    "value": "0xA5850000"
+  }, {
+    "type": "word",
+    "value": "0xA5460000"
+  }, {
+    "type": "word",
+    "value": "0xA5670000"
+  }, {
+    "type": "word",
+    "value": "0x34040006"
+  }, {
+    "type": "word",
+    "value": "0xAD230000"
+  }, {
+    "type": "word",
+    "value": "0xA1A40000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x95C40000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x30840020"
+  }, {
+    "type": "word",
+    "value": "0x34050022"
+  }, {
+    "type": "word",
+    "value": "0x10800002"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0x34050002"
+  }, {
+    "type": "word",
+    "value": "0x3C04800F"
+  }, {
+    "type": "word",
+    "value": "0x348432A4"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "type": "word",
+    "value": "0xA0850000"
+  }, {
+    "type": "word",
+    "value": "0x03E00008"
+  }, {
+    "type": "word",
+    "value": "0x00000000",
+    "comments": "End of Portal"
+  }, {
+    "comment": "HK",
+    "type": "word",
+    "address": "0x10B138",
+    "value": "0x0C003000"
+  }, {
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Door broken, ring bell",
+    "type": "word",
+    "address": "0x4FCF7E8",
+    "value": "0x3402000"
+  }, {
+    "comment": "Never get Clock Blocked",
+    "type": "word",
+    "address": "0x4951D4C",
+    "value": "0x3C020002"
+  }, {
+    "type": "word",
+    "address": "0x4FCF264",
+    "value": "0x3C020002"
+  }, {
+    "comment": "Open means Free Relics",
+    "type": "word",
+    "address": "0x47A3098",
+    "value": "0x00000000"
+  }, {
+    "comment": "Demon card open door A",
+    "address": "0x4608B84",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Demon card open door B",
+    "address": "0x4608BE4",
+    "type": "word",
+    "value": "0x00000000"
+  }, {
+    "comment": "Teleport not bright as hell",
+    "type": "char",
+    "address": "0xFB1F8",
+    "value": "0x20"
+  }, {
+    "type": "char",
+    "address": "0xFB1FC",
+    "value": "0x20"
+  }, {
+    "type": "char",
+    "address": "0xFB204",
+    "value": "0x20"
+  }, {
+    "type": "char",
+    "address": "0x10AD98",
+    "value": "0x20"
+  }, {
+    "type": "char",
+    "address": "0x10ADA8",
+    "value": "0x20"
+  }, {
+    "type": "char",
+    "address": "0x10ADB0",
+    "value": "0x40"
+  }, {
+    "type": "char",
+    "address": "0x10B29C",
+    "value": "0x20"
+  }, {
+    "type": "char",
+    "address": "0x10B2A0",
+    "value": "0x20"
+  }, {
+    "type": "char",
+    "address": "0x10B2A8",
+    "value": "0x40"
+  }, {
+    "comment":"last Teleport not bright",
+    "type": "char",
+    "address": "0x143C58",
+    "value": "0x40"
+  }, {
+    "comment":"Cake is NOT a lie 1",
+    "type": "word",
+    "address": "0x3AF8AE4",
+    "value": "0x34020027"
+  }, {
+    "comment":"Cake is NOT a lie 2",
+    "type": "word",
+    "address": "0x3CD2FC4",
+    "value": "0x34020027"
+  }, {
+    "comment": "Force the scroll lock entity in Forbidden Route to appear",
+    "type": "char",
+    "address": "0x435FB77",
+    "value": "0xA0"
+  }, {
+    "comment": "Remove any% Relic Skip 1",
+    "type": "word",
+    "address": "0x4FA2138",
+    "value": "0x014C0127"
+  }, {
+    "type": "word",
+    "value": "0x0000019E"
+  }, {
+    "type": "short",
+    "value": "0x0000"
+  }, {
+    "comment": "Remove any% Relic Skip 2",
+    "type": "word",
+    "address": "0x4FA2178",
+    "value": "0x014C0127"
+  }, {
+    "type": "word",
+    "value": "0x0000019B"
+  }, {
+    "comment": "Remove any% Relic Skip 3",
+    "type": "word",
+    "address": "0x4FA21B8",
+    "value": "0x014C0127"
+  }, {
+    "type": "short",
+    "value": "0x0198"
+  }, {
+    "comment": "Remove any% Relic Skip 4",
+    "type": "word",
+    "address": "0x4FA21F8",
+    "value": "0x014C0127"
+  }, {
+    "type": "short",
+    "value": "0x0195"
+  }, {
+    "comment": "Remove any% Relic Skip 5",
+    "type": "word",
+    "address": "0x4FA2238",
+    "value": "0x0127014D"
+  }, {
+    "type": "word",
+    "value": "0x01850186"
+  }, {
+    "type": "word",
+    "value": "0x01830184"
+  }, {
+    "comment": "Add complexity to Force of Echo 1",
+    "type": "word",
+    "address": "0x52917F4",
+    "value": "0x039F039E"
+  }, {
+    "comment": "Add complexity to Force of Echo 2",
+    "type": "word",
+    "address": "0x5291928",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x0180039E"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x039F0180"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "comment": "Add complexity to Force of Echo 3",
+    "type": "word",
+    "address": "0x5291ABC",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x038D039D"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x03A00399"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x039D0180"
+  }, {
+    "type": "word",
+    "value": "0x039A07F3"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x039A0399"
+  }, {
+    "type": "word",
+    "value": "0x03930394"
+  }, {
+    "comment": "Add complexity to Force of Echo 4",
+    "type": "word",
+    "address": "0x5291C5A",
+    "value": "0x0399038D"
+  }, {
+    "type": "word",
+    "value": "0x0398039A"
+  }, {
+    "type": "word",
+    "value": "0x0AC70386"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC9"
+  }, {
+    "type": "word",
+    "value": "0x0AC70ACA"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC9"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC90AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70ACA"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC9"
+  }, {
+    "type": "word",
+    "value": "0x0ACA0AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC9"
+  }, {
+    "type": "word",
+    "value": "0x03940395"
+  }, {
+    "type": "word",
+    "value": "0x038D0393"
+  }, {
+    "type": "word",
+    "value": "0x03860398"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC9"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC90ACA"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC9"
+  }, {
+    "type": "word",
+    "value": "0x03920ACA"
+  }, {
+    "type": "word",
+    "value": "0x03940391"
+  }, {
+    "type": "short",
+    "value": "0x0393"
+  }, {
+    "comment": "Add complexity to Force of Echo 5",
+    "type": "word",
+    "address": "0x5291DF6",
+    "value": "0x038D039F"
+  }, {
+    "type": "word",
+    "value": "0x0AC7038C"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x03740375"
+  }, {
+    "type": "word",
+    "value": "0x03740373"
+  }, {
+    "type": "word",
+    "value": "0x03750373"
+  }, {
+    "type": "word",
+    "value": "0x03730374"
+  }, {
+    "type": "word",
+    "value": "0x03730374"
+  }, {
+    "type": "word",
+    "value": "0x0AC70375"
+  }, {
+    "type": "word",
+    "value": "0x03920AC7"
+  }, {
+    "type": "word",
+    "value": "0x038C0391"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x03740375"
+  }, {
+    "type": "word",
+    "value": "0x03740373"
+  }, {
+    "type": "word",
+    "value": "0x03750373"
+  }, {
+    "type": "word",
+    "value": "0x03730374"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x03920AC7"
+  }, {
+    "type": "word",
+    "value": "0x03940391"
+  }, {
+    "type": "word",
+    "value": "0x039E0393"
+  }, {
+    "type": "short",
+    "value": "0x039F"
+  }, {
+    "comment": "Add complexity to Force of Echo 6",
+    "type": "word",
+    "address": "0x5291F96",
+    "value": "0x0382039A"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x03740AC7"
+  }, {
+    "type": "word",
+    "value": "0x03740373"
+  }, {
+    "type": "word",
+    "value": "0x03750373"
+  }, {
+    "type": "word",
+    "value": "0x03730374"
+  }, {
+    "type": "word",
+    "value": "0x036C036D"
+  }, {
+    "type": "word",
+    "value": "0x03700371"
+  }, {
+    "type": "word",
+    "value": "0x037007E1"
+  }, {
+    "type": "word",
+    "value": "0x0371036F"
+  }, {
+    "type": "word",
+    "value": "0x07E10370"
+  }, {
+    "type": "word",
+    "value": "0x036F0370"
+  }, {
+    "type": "word",
+    "value": "0x037F0371"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x036C036D"
+  }, {
+    "type": "word",
+    "value": "0x03700371"
+  }, {
+    "type": "word",
+    "value": "0x037007E1"
+  }, {
+    "type": "word",
+    "value": "0x0371036F"
+  }, {
+    "type": "word",
+    "value": "0x07E10370"
+  }, {
+    "type": "word",
+    "value": "0x03780379"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x03920AC7"
+  }, {
+    "type": "word",
+    "value": "0x03990391"
+  }, {
+    "type": "word",
+    "value": "0x0394039A"
+  }, {
+    "type": "word",
+    "value": "0x039E0393"
+  }, {
+    "type": "word",
+    "value": "0x039E039F"
+  }, {
+    "comment": "Add complexity to Force of Echo 7",
+    "type": "word",
+    "address": "0x5292266",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x036D0AC7"
+  }, {
+    "type": "word",
+    "value": "0x0370036C"
+  }, {
+    "type": "word",
+    "value": "0x037007E1"
+  }, {
+    "type": "word",
+    "value": "0x0371036F"
+  }, {
+    "type": "word",
+    "value": "0x07E10370"
+  }, {
+    "type": "word",
+    "value": "0x036A036E"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x039F039E"
+  }, {
+    "type": "word",
+    "value": "0x0180039E"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x0A730180"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x036C036D"
+  }, {
+    "type": "word",
+    "value": "0x036A036B"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x03760377"
+  }, {
+    "type": "word",
+    "value": "0x03780379"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x03920AC7"
+  }, {
+    "type": "word",
+    "value": "0x03990391"
+  }, {
+    "type": "word",
+    "value": "0x0399039A"
+  }, {
+    "type": "short",
+    "value": "0x038C"
+  }, {
+    "comment": "Add complexity to Force of Echo 8",
+    "type": "word",
+    "address": "0x529240A",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x036D0AC7"
+  }, {
+    "type": "word",
+    "value": "0x036E036C"
+  }, {
+    "type": "word",
+    "value": "0x0180036A"
+  }, {
+    "type": "short",
+    "value": "0x0180"
+  }, {
+    "comment": "Add complexity to Force of Echo 9",
+    "type": "word",
+    "address": "0x5292444",
+    "value": "0x037303A7"
+  }, {
+    "type": "word",
+    "value": "0x03730374"
+  }, {
+    "type": "word",
+    "value": "0x036B0372"
+  }, {
+    "type": "word",
+    "value": "0x0180036A"
+  }, {
+    "type": "short",
+    "value": "0x0180"
+  }, {
+    "comment": "Add complexity to Force of Echo 10",
+    "type": "word",
+    "address": "0x529246C",
+    "value": "0x03790376"
+  }, {
+    "type": "word",
+    "value": "0x0AC70378"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0ACA0AC9"
+  }, {
+    "type": "short",
+    "value": "0x0AC9"
+  }, {
+    "comment": "Add complexity to Force of Echo 11",
+    "type": "word",
+    "address": "0x52925AC",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x036C036D"
+  }, {
+    "type": "word",
+    "value": "0x036A036E"
+  }, {
+    "type": "word",
+    "value": "0x03D10180"
+  }, {
+    "type": "short",
+    "value": "0x039F"
+  }, {
+    "comment": "Add complexity to Force of Echo 12",
+    "type": "word",
+    "address": "0x52925E4",
+    "value": "0x07E10396"
+  }, {
+    "type": "word",
+    "value": "0x036F0370"
+  }, {
+    "type": "word",
+    "value": "0x0180036E"
+  }, {
+    "type": "word",
+    "value": "0x018003AA"
+  }, {
+    "type": "short",
+    "value": "0x0180"
+  }, {
+    "comment": "Add complexity to Force of Echo 13",
+    "type": "word",
+    "address": "0x5292610",
+    "value": "0x03790376"
+  }, {
+    "type": "word",
+    "value": "0x03750378"
+  }, {
+    "type": "word",
+    "value": "0x05E70374"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC70AC7"
+  }, {
+    "type": "word",
+    "value": "0x0AC7"
+  }, {
+    "comment": "Add complexity to Force of Echo 14",
+    "type": "word",
+    "address": "0x529271C",
+    "value": "0x03740375"
+  }, {
+    "type": "short",
+    "value": "0x0375"
+  }, {
+    "comment": "Add complexity to Force of Echo 15",
+    "type": "word",
+    "address": "0x529274C",
+    "value": "0x03720AC7"
+  }, {
+    "type": "word",
+    "value": "0x036A036E"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x03C80180"
+  }, {
+    "comment": "Add complexity to Force of Echo 16",
+    "type": "word",
+    "address": "0x52927B4",
+    "value": "0x03710376"
+  }, {
+    "type": "word",
+    "value": "0x05E60370"
+  }, {
+    "type": "word",
+    "value": "0x05970598"
+  }, {
+    "type": "word",
+    "value": "0x05A805A9"
+  }, {
+    "type": "short",
+    "value": "0x05A7"
+  }, {
+    "comment": "Add complexity to Force of Echo 17",
+    "type": "word",
+    "address": "0x52928B8",
+    "value": "0x036C036D"
+  }, {
+    "type": "word",
+    "value": "0x03700371"
+  }, {
+    "type": "word",
+    "value": "0x03790371"
+  }, {
+    "type": "short",
+    "value": "0x0378"
+  }, {
+    "comment": "Add complexity to Force of Echo 18",
+    "type": "word",
+    "address": "0x52928EC",
+    "value": "0x036E0372"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "short",
+    "value": "0x03D1"
+  }, {
+    "comment": "Add complexity to Force of Echo 19",
+    "type": "word",
+    "address": "0x529295E",
+    "value": "0x081D0596"
+  }, {
+    "type": "word",
+    "value": "0x05A405A5"
+  }, {
+    "comment": "Add complexity to Force of Echo 20",
+    "type": "short",
+    "address": "0x5292A56",
+    "value": "0x0372"
+  }, {
+    "comment": "Add complexity to Force of Echo 21",
+    "type": "word",
+    "address": "0x5292B88",
+    "value": "0x036A036E"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x03770180"
+  }, {
+    "type": "word",
+    "value": "0x037F0376"
+  }, {
+    "comment": "Add complexity to Force of Echo 22",
+    "type": "word",
+    "address": "0x5292CF6",
+    "value": "0x03750374"
+  }, {
+    "comment": "Add complexity to Force of Echo 23",
+    "type": "word",
+    "address": "0x5292D24",
+    "value": "0x036E0372"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x03E30180"
+  }, {
+    "type": "word",
+    "value": "0x03780379"
+  }, {
+    "type": "short",
+    "value": "0x0375"
+  }, {
+    "comment": "Add complexity to Force of Echo 24",
+    "type": "word",
+    "address": "0x5292E92",
+    "value": "0x036C036D"
+  }, {
+    "type": "word",
+    "value": "0x03710370"
+  }, {
+    "type": "word",
+    "value": "0x03780379"
+  }, {
+    "comment": "Add complexity to Force of Echo 25",
+    "type": "word",
+    "address": "0x5292EC0",
+    "value": "0x036C036D"
+  }, {
+    "type": "word",
+    "value": "0x0180036E"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x03760377"
+  }, {
+    "type": "word",
+    "value": "0x03790371"
+  }, {
+    "type": "short",
+    "value": "0x0378"
+  }, {
+    "comment": "Add complexity to Force of Echo 26",
+    "type": "word",
+    "address": "0x529302E",
+    "value": "0x036C036D"
+  }, {
+    "type": "word",
+    "value": "0x036A036E"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x03760377"
+  }, {
+    "type": "word",
+    "value": "0x03780379"
+  }, {
+    "comment": "Add complexity to Force of Echo 27",
+    "type": "word",
+    "address": "0x5293058",
+    "value": "0x03740375"
+  }, {
+    "type": "word",
+    "value": "0x036C036D"
+  }, {
+    "type": "word",
+    "value": "0x036A036E"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x03770180"
+  }, {
+    "type": "word",
+    "value": "0x037F0376"
+  }, {
+    "comment": "Add complexity to Force of Echo 28",
+    "type": "word",
+    "address": "0x5293094",
+    "value": "0x03740375"
+  }, {
+    "comment": "Add complexity to Force of Echo 29",
+    "type": "word",
+    "address": "0x52931CC",
+    "value": "0x036E0372"
+  }, {
+    "type": "word",
+    "value": "0x0180036A"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x03770180"
+  }, {
+    "type": "word",
+    "value": "0x03790376"
+  }, {
+    "type": "short",
+    "value": "0x0378"
+  }, {
+    "comment": "Add complexity to Force of Echo 30",
+    "type": "word",
+    "address": "0x52931F4",
+    "value": "0x036C036D"
+  }, {
+    "type": "word",
+    "value": "0x03700371"
+  }, {
+    "type": "word",
+    "value": "0x036A036E"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x03760180"
+  }, {
+    "type": "short",
+    "value": "0x037F"
+  }, {
+    "comment": "Add complexity to Force of Echo 31",
+    "type": "word",
+    "address": "0x5293232",
+    "value": "0x03710372"
+  }, {
+    "type": "word",
+    "value": "0x03790370"
+  }, {
+    "type": "short",
+    "value": "0x0378"
+  }, {
+    "comment": "Add complexity to Force of Echo 32",
+    "type": "word",
+    "address": "0x5293368",
+    "value": "0x036C036D"
+  }, {
+    "type": "word",
+    "value": "0x0180036E"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x03790376"
+  }, {
+    "comment": "Add complexity to Force of Echo 33",
+    "type": "word",
+    "address": "0x52934B8",
+    "value": "0x03750378"
+  }, {
+    "type": "word",
+    "value": "0x03730374"
+  }, {
+    "type": "word",
+    "value": "0x036C036D"
+  }, {
+    "type": "word",
+    "value": "0x036A036E"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "comment": "Add complexity to Force of Echo 34",
+    "type": "word",
+    "address": "0x52934C4",
+    "value": "0x036A036E"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "short",
+    "value": "0x037C"
+  }, {
+    "comment": "Add complexity to Force of Echo 35",
+    "type": "word",
+    "address": "0x5293502",
+    "value": "0x0180036E"
+  }, {
+    "type": "word",
+    "value": "0x03770180"
+  }, {
+    "type": "short",
+    "value": "0x0376"
+  }, {
+    "comment": "Add complexity to Force of Echo 36",
+    "type": "word",
+    "address": "0x5293636",
+    "value": "0x036E0372"
+  }, {
+    "type": "word",
+    "value": "0x0180036A"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x03760377"
+  }, {
+    "comment": "Add complexity to Force of Echo 37",
+    "type": "word",
+    "address": "0x529366C",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "comment": "Add complexity to Force of Echo 38",
+    "type": "short",
+    "address": "0x52936AA",
+    "value": "0x03AA"
+  }, {
+    "comment": "Add complexity to Force of Echo 39",
+    "type": "word",
+    "address": "0x52937D2",
+    "value": "0x036C036D"
+  }, {
+    "type": "word",
+    "value": "0x0180036E"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "short",
+    "value": "0x0180"
+  }, {
+    "comment": "Add complexity to Force of Echo 40",
+    "type": "word",
+    "address": "0x5293812",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "comment": "Add complexity to Force of Echo 41",
+    "type": "short",
+    "address": "0x529384A",
+    "value": "0x03A2"
+  }, {
+    "comment": "Add complexity to Force of Echo 42",
+    "type": "word",
+    "address": "0x529396E",
+    "value": "0x036C036D"
+  }, {
+    "type": "word",
+    "value": "0x036A036E"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "comment": "Add complexity to Force of Echo 43",
+    "type": "word",
+    "address": "0x52939B6",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "short",
+    "value": "0x0180"
+  }, {
+    "comment": "Add complexity to Force of Echo 44",
+    "type": "short",
+    "address": "0x52939EA",
+    "value": "0x0397"
+  }, {
+    "comment": "Add complexity to Force of Echo 45",
+    "type": "word",
+    "address": "0x5293B0E",
+    "value": "0x036A036E"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "short",
+    "value": "0x0180"
+  }, {
+    "comment": "Add complexity to Force of Echo 46",
+    "type": "word",
+    "address": "0x5293B58",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "comment": "Add complexity to Force of Echo 47",
+    "type": "word",
+    "address": "0x5293CB4",
+    "value": "0x01800180"
+  }, {
+    "comment": "Add complexity to Force of Echo 48",
+    "type": "word",
+    "address": "0x5293DE8",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "short",
+    "value": "0x0180"
+  }, {
+    "comment": "Add complexity to Force of Echo 49",
+    "type": "word",
+    "address": "0x5293F86",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "word",
+    "value": "0x01800180"
+  }, {
+    "type": "short",
+    "value": "0x0180"
+  }, {
+    "comment": "Add complexity to Force of Echo 50 (start BG)",
+    "type": "word",
+    "address": "0x5295780",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "comment": "Add complexity to Force of Echo 51",
+    "type": "word",
+    "address": "0x5295978",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "comment": "Add complexity to Force of Echo 52",
+    "type": "word",
+    "address": "0x5295A4A",
+    "value": "0x04A604A7"
+  }, {
+    "type": "word",
+    "value": "0x047004A5"
+  }, {
+    "type": "word",
+    "value": "0x047C0477"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "short",
+    "value": "0x0473"
+  }, {
+    "comment": "Add complexity to Force of Echo 53",
+    "type": "word",
+    "address": "0x5295BE8",
+    "value": "0x04670468"
+  }, {
+    "type": "word",
+    "value": "0x04CE044E"
+  }, {
+    "type": "word",
+    "value": "0x047704B2"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "comment": "Add complexity to Force of Echo 54",
+    "type": "word",
+    "address": "0x5295D8A",
+    "value": "0x04B1046E"
+  }, {
+    "type": "word",
+    "value": "0x04AF04B0"
+  }, {
+    "type": "word",
+    "value": "0x047204AE"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "short",
+    "value": "0x047D"
+  }, {
+    "comment": "Add complexity to Force of Echo 55",
+    "type": "word",
+    "address": "0x5295F2C",
+    "value": "0x04AB04AC"
+  }, {
+    "type": "word",
+    "value": "0x04A904AA"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x047E0478"
+  }, {
+    "type": "word",
+    "value": "0x04790490"
+  }, {
+    "type": "word",
+    "value": "0x067E0478"
+  }, {
+    "type": "word",
+    "value": "0x06800681"
+  }, {
+    "type": "word",
+    "value": "0x067D069D"
+  }, {
+    "type": "short",
+    "value": "0x0725"
+  }, {
+    "comment": "Add complexity to Force of Echo 56",
+    "type": "word",
+    "address": "0x52960CC",
+    "value": "0x04AB04AC"
+  }, {
+    "type": "word",
+    "value": "0x04A904AA"
+  }, {
+    "type": "short",
+    "value": "0x0490"
+  }, {
+    "comment": "Add complexity to Force of Echo 57",
+    "type": "word",
+    "address": "0x5296132",
+    "value": "0x047C047D"
+  }, {
+    "type": "word",
+    "value": "0x04720473"
+  }, {
+    "type": "word",
+    "value": "0x06790676"
+  }, {
+    "type": "word",
+    "value": "0x069A0678"
+  }, {
+    "type": "word",
+    "value": "0x07240675"
+  }, {
+    "comment": "Add complexity to Force of Echo 58",
+    "type": "word",
+    "address": "0x529639C",
+    "value": "0x04A504A6"
+  }, {
+    "type": "word",
+    "value": "0x046F0470"
+  }, {
+    "comment": "Add complexity to Force of Echo 59",
+    "type": "word",
+    "address": "0x529640C",
+    "value": "0x0682067E"
+  }, {
+    "type": "word",
+    "value": "0x069D0681"
+  }, {
+    "type": "short",
+    "value": "0x0783"
+  }, {
+    "comment": "Add complexity to Force of Echo 60",
+    "type": "short",
+    "address": "0x529653C",
+    "value": "0x044E"
+  }],
+
+  "complexityGoal": {
+    "min": 8,
+    "goals": [
+      "Heart of Vlad + Tooth of Vlad + Rib of Vlad + Ring of Vlad + Eye of Vlad + Faerie Scroll"
+    ]
+  }
+}
